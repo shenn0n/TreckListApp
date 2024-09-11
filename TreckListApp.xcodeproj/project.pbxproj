@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7452A5362C91712900409A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452A5352C91712900409A52 /* AppDelegate.swift */; };
 		7452A5382C91712900409A52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452A5372C91712900409A52 /* SceneDelegate.swift */; };
-		7452A53A2C91712900409A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452A5392C91712900409A52 /* ViewController.swift */; };
 		7452A53D2C91712900409A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7452A53B2C91712900409A52 /* Main.storyboard */; };
 		7452A53F2C91712B00409A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7452A53E2C91712B00409A52 /* Assets.xcassets */; };
 		7452A5422C91712B00409A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7452A5402C91712B00409A52 /* LaunchScreen.storyboard */; };
+		7452A54A2C91835F00409A52 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452A5492C91835F00409A52 /* TrackListViewController.swift */; };
+		7452A54C2C9220B600409A52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452A54B2C9220B600409A52 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7452A5322C91712900409A52 /* TreckListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreckListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7452A5352C91712900409A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7452A5372C91712900409A52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7452A5392C91712900409A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7452A53C2C91712900409A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7452A53E2C91712B00409A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7452A5412C91712B00409A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7452A5432C91712B00409A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7452A5492C91835F00409A52 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		7452A54B2C9220B600409A52 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				7452A5352C91712900409A52 /* AppDelegate.swift */,
 				7452A5372C91712900409A52 /* SceneDelegate.swift */,
-				7452A5392C91712900409A52 /* ViewController.swift */,
 				7452A53B2C91712900409A52 /* Main.storyboard */,
 				7452A53E2C91712B00409A52 /* Assets.xcassets */,
 				7452A5402C91712B00409A52 /* LaunchScreen.storyboard */,
 				7452A5432C91712B00409A52 /* Info.plist */,
+				7452A5492C91835F00409A52 /* TrackListViewController.swift */,
+				7452A54B2C9220B600409A52 /* DetailViewController.swift */,
 			);
 			path = TreckListApp;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7452A53A2C91712900409A52 /* ViewController.swift in Sources */,
 				7452A5362C91712900409A52 /* AppDelegate.swift in Sources */,
 				7452A5382C91712900409A52 /* SceneDelegate.swift in Sources */,
+				7452A54A2C91835F00409A52 /* TrackListViewController.swift in Sources */,
+				7452A54C2C9220B600409A52 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
